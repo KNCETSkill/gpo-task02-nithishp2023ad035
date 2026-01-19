@@ -1,6 +1,7 @@
 import java.util.Scanner;
+import java.io.*;
 
-public class StudentAttendanceEvaluator {
+public class AttendanceStatusEvaluator {
 
     public static void main(String[] args) {
 
