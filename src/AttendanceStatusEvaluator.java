@@ -8,11 +8,11 @@ public class StudentAttendanceEvaluator {
 
         int Attendance = sc.nextInt();
         if(Attendance>85){
-            printf("Excellent");
+            System.out.println("Excellent");
         } else if(Attendance>=60 && Attendance<=85){
-            printf("Satisfactory");       
+            System.out.println("Satisfactory");       
         } else if(Attendance<60){
-            printf("Poor");
+           System.out.println("Poor");
                 }
        
         sc.close();
